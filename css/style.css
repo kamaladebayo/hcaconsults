@@ -128,11 +128,8 @@ a:hover {
 .overflow {
   overflow: hidden;
 }
+
 .transparent {
-  color: #00115e;
-  font-weight: bolder;
-}
-.black-transparent {
   -webkit-text-stroke: 1px #0b0b0b;
   text-stroke: 1px #0b0b0b;
   -webkit-text-fill-color: transparent;
@@ -140,8 +137,14 @@ a:hover {
   font-weight: bolder;
 }
 .white-transparent {
-  -webkit-text-stroke: 1px #fff;
-  text-stroke: 1px #fff;
+  -webkit-text-stroke: 2px #fff;
+  text-stroke: 2px #fff;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+.id-transparent {
+  -webkit-text-stroke: 3px #96c346;
+  text-stroke: 3px #96c346;
   -webkit-text-fill-color: transparent;
   color: transparent;
 }
@@ -906,6 +909,22 @@ a:hover {
   animation-delay: 15s;
   background-image: url('/img/bcg/6.jpg');
 }
+.crossfade > figure:nth-child(7) {
+  animation-delay: 18s;
+  background-image: url('/img/bcg/7.jpg');
+}
+.crossfade > figure:nth-child(8) {
+  animation-delay: 21s;
+  background-image: url('/img/bcg/8.jpg');
+}
+.crossfade > figure:nth-child(9) {
+  animation-delay: 24s;
+  background-image: url('/img/bcg/9.jpg');
+}
+.crossfade > figure:nth-child(10) {
+  animation-delay: 27s;
+  background-image: url('/img/bcg/10.jpg');
+}
 
 @keyframes imageAnimation {
   0% {
@@ -1212,9 +1231,12 @@ a:hover {
   -ms-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
+  border: 2px solid #96c346;
+  background-color: #96c346;
 }
-.new-counter .BR{
-  border-right: 1px solid #96c346;
+.new-counter .counter-box:hover{
+  background-color: #fff;
+  border: 2px solid #96c346;
 }
 .new-counter .counter-box .odometer {
   display: inline-block;
