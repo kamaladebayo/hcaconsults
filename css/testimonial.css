@@ -139,7 +139,7 @@
 	 list-style: none;
 }
  body .testimonial .row .carousel .carousel-indicators li {
-	 background: #00115e;
+	 background: rgb(11, 15, 40);
 	 background-clip: padding-box;
 	 height: 2px;
 }

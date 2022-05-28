@@ -142,6 +142,12 @@ a:hover {
   -webkit-text-fill-color: transparent;
   color: transparent;
 }
+.black-transparent {
+  -webkit-text-stroke: 1px #0b0b0b;
+  text-stroke: 1px #0b0b0b;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
 .id-transparent {
   -webkit-text-stroke: 3px #96c346;
   text-stroke: 3px #96c346;
@@ -169,7 +175,7 @@ a:hover {
   font-weight: bold;
 }
 .id-blue{
-  color: #00115e;
+  color: rgb(11, 15, 40);
 }
 .no-display{
   display: none;
@@ -357,7 +363,7 @@ a:hover {
   -webkit-transition-duration: 500ms;
   transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
   -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
-  background: #00115e !important;
+  background: rgb(11, 15, 40) !important;
   background-image: url("../images/overlay.jpg");
   background-position: center;
   background-size: cover;
@@ -564,15 +570,15 @@ a:hover {
   top: 0;
   z-index: 4;
   transition: top ease 1s;
-  background-color: #00115e;
+  background-color: rgb(11, 15, 40);
 }
 .navbar .container{
-  max-width: 1220px !important;
+  max-width: 1270px !important;
   margin-right: 0px;
 }
 .navbar.sticky {
   position: fixed;
-  background: #00115e;
+  background: rgb(11, 15, 40);
 }
 .navbar.nav-down {
   top: 0;
@@ -917,14 +923,6 @@ a:hover {
   animation-delay: 21s;
   background-image: url('/img/bcg/8.jpg');
 }
-.crossfade > figure:nth-child(9) {
-  animation-delay: 24s;
-  background-image: url('/img/bcg/9.jpg');
-}
-.crossfade > figure:nth-child(10) {
-  animation-delay: 27s;
-  background-image: url('/img/bcg/10.jpg');
-}
 
 @keyframes imageAnimation {
   0% {
@@ -1100,7 +1098,7 @@ a:hover {
   transition: all 0.25s ease-in-out;
   opacity: 0;
   z-index: -1;
-  box-shadow: 0 30px 30px #eee;
+  box-shadow: 0 30px 30px #fff;
 }
 .icon-content:hover {
   border-color: #96c346;
@@ -1256,6 +1254,39 @@ a:hover {
   padding-right: 5%;
 }
 
+/* UPCOMING EVENTS */
+.upcoming .section-title{
+  margin-bottom: 10px !important;
+}
+.upcoming .up-event{
+  background-color: rgb(11, 15, 40);
+  padding: 20px;
+  color: #fff;
+}
+.up-eventTwo{
+  padding-top: 40px !important;
+  background-color: #eee;
+  padding: 20px;
+  color: #0b0b0b;
+}
+.up-event h3{
+  font-weight: bold;
+  font-size: 30px;
+}
+.up-event .container{
+  margin-top: 50px;
+}
+.up-event-2 .container{
+  margin-top: 50px;
+}
+.up-event .container h3{
+  margin-bottom: 30px;
+}
+.up-event a{
+  color: #96c346;
+  text-decoration: underline;
+}
+
 /* COUNTER BOX */
 .old-counter .col-lg-3:nth-child(even) .counter-box {
   margin-top: 50%;
@@ -1403,7 +1434,7 @@ a:hover {
   width: calc(100% - 40px);
   display: block;
   background: #fff;
-  box-shadow: 0 0 30px #eee;
+  box-shadow: 0 0 30px #fff;
   padding: 50px;
   margin-left: 40px;
 }
@@ -1549,8 +1580,8 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   padding: 40px;
-  box-shadow: 1px 0 0 0 #eee, 0 1px 0 0 #eee, 1px 1px 0 0 #eee,
-    1px 0 0 0 #eee inset, 0 1px 0 0 #eee inset;
+  box-shadow: 1px 0 0 0 #fff, 0 1px 0 0 #fff, 1px 1px 0 0 #fff,
+    1px 0 0 0 #fff inset, 0 1px 0 0 #fff inset;
   position: relative;
   color: #0b0b0b;
   -webkit-transition: all 0.25s ease-in-out;
@@ -1589,7 +1620,7 @@ a:hover {
   height: 1px;
   left: 0;
   top: 50px;
-  background: #eee;
+  background: #fff;
 }
 .our-history .swiper-pagination-progressbar-fill {
   background: #96c346;
@@ -1622,7 +1653,7 @@ a:hover {
   content: "";
   width: 12px;
   height: 12px;
-  background: #eee;
+  background: #fff;
   border-radius: 50%;
   position: absolute;
   left: calc(50% - 6px);
@@ -1693,7 +1724,7 @@ a:hover {
 }
 .core-values-box:hover {
   transform: translateY(-20px);
-  box-shadow: 0 30px 30px #eee;
+  box-shadow: 0 30px 30px #fff;
 }
 .core-values-box:hover h6:before {
   width: 0;
@@ -1958,7 +1989,7 @@ a:hover {
 .s-box {
   width: 100%;
   display: block;
-  border: 2px solid #00115e;
+  border: 2px solid rgb(11, 15, 40);
   padding: 30px;
   position: relative;
   -webkit-transition: all 0.25s ease-in-out;
@@ -1969,7 +2000,7 @@ a:hover {
 }
 .s-box:hover {
   transform: translateY(-20px);
-  box-shadow: 0 2px 2px #00115e;
+  box-shadow: 0 2px 2px rgb(11, 15, 40);
 }
 .s-box:after {
   content: "";
@@ -2427,7 +2458,7 @@ a.btn-border-white {
   position: relative;
   overflow: hidden;
   color: #fff;
-  background-color: #00115e;
+  background-color: rgb(11, 15, 40);
   background-image: url("../images/overlay.jpg");
   background-position: center;
   background-size: cover;
@@ -2517,7 +2548,7 @@ a.btn-border-white {
 .footer {
   width: 100%;
   display: block;
-  background-color: #00115e;
+  background-color: rgb(11, 15, 40);
   position: relative;
   padding-top: 80px;
   color: #fff;
