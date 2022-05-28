@@ -543,17 +543,19 @@ a:hover {
 /* F-NAV */
 .f-nav .grid-container {
   display: grid;
-  grid-template-columns: 300px 1fr 1fr;
+  grid-template-columns: auto auto;
   margin: 20px 0px 10px 0px;
 }
 .f-nav h1{
-  margin-top: 15px;
+  margin-top: 25px;
+  margin-left: 20px;
+  text-align: left;
 }
 .f-nav p{
  margin-top: 25px;
 }
 .f-nav .logo {
-  text-align: center;
+  text-align: right;
   /* padding-right: 40px; */
 }
 .f-nav img {
@@ -1229,12 +1231,12 @@ a:hover {
   -ms-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
-  border: 2px solid #96c346;
+  border: 4px solid #96c346;
   background-color: #96c346;
 }
 .new-counter .counter-box:hover{
   background-color: #fff;
-  border: 2px solid #96c346;
+  border: 4px solid #96c346;
 }
 .new-counter .counter-box .odometer {
   display: inline-block;
@@ -1265,7 +1267,7 @@ a:hover {
 }
 .up-eventTwo{
   padding-top: 40px !important;
-  background-color: #eee;
+  background-color: #fff;
   padding: 20px;
   color: #0b0b0b;
 }
@@ -1276,8 +1278,16 @@ a:hover {
 .up-event .container{
   margin-top: 50px;
 }
-.up-event-2 .container{
-  margin-top: 50px;
+.up-eventTwo .container{
+  margin-bottom: 20px;
+}
+.up-eventTwo .container i{
+  color: #96c346;
+  transition: 0.2s;
+}
+.up-eventTwo .container i:hover{
+  transition: 0.2s;
+  color: rgb(11, 15, 40);
 }
 .up-event .container h3{
   margin-bottom: 30px;
@@ -1285,6 +1295,92 @@ a:hover {
 .up-event a{
   color: #96c346;
   text-decoration: underline;
+}
+
+#section-sponsors {
+  padding: 0px 0px 0px 0px !important;
+}
+#section-sponsors .company-slider {
+  background-color: #fff !important;
+}
+#section-sponsors .next {
+  margin-right: 50px;
+}
+@-webkit-keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(calc(-200px * 22));
+    transform: translateX(calc(-200px * 22));
+  }
+}
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(calc(-200px * 22));
+    transform: translateX(calc(-200px * 22));
+  }
+}
+.company-slider {
+  background: white;
+  /* box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125); */
+  height: 200px;
+  margin: auto;
+  overflow: hidden;
+  /* position: relative; */
+  width: 100%;
+}
+
+.company-slider::after {
+  right: 0;
+  top: 0;
+  -webkit-transform: rotateZ(180deg);
+  transform: rotateZ(180deg);
+}
+.company-slider::before {
+  left: 0;
+  top: 0;
+}
+.company-slider .company-slide-track {
+  -webkit-animation: scroll 40s linear infinite;
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(300px * 50);
+}
+.company-slider .company-slide {
+  height: 200px;
+  width: 200px;
+}
+.company-slider {
+  background: rgb(28, 28, 33);
+  height: 150px;
+  margin: auto;
+  overflow: hidden;
+  width: 100%;
+}
+.company-slider::after {
+  right: 0px;
+  top: 0px;
+  transform: rotateZ(180deg);
+}
+.company-slider::before {
+  left: 0px;
+  top: 0px;
+}
+.company-slider .company-slide-track {
+  animation: 30s linear 0s infinite normal none running scroll;
+  display: flex;
+  width: calc(5645px);
+}
+.company-slider .company-slide {
+  height: 200px;
+  width: 200px;
 }
 
 /* COUNTER BOX */
@@ -3181,8 +3277,17 @@ input::-moz-focus-outer {
     display: none;
   }
   .slider{
-    background-image: url("../images/DSC_0002\ \(3\).jpg");
-    background-position: right 900px bottom;
+    height: 100vh;
+  }
+  .crossfade > figure{
+    background-position: left 600px bottom;
+  }
+  .new-counter .counter-box {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+    height: 80px;
   }
   .Ndisplay{
     display: block !important;
@@ -3192,11 +3297,20 @@ input::-moz-focus-outer {
   }
   .f-nav img {
     margin-top: 25px;
-    width: 80%;
+    width: 50%;
+    margin-left: 50px;
   }
-  .f-nav p {
-    font-size: 13px;
+  .f-nav .logo{
+    text-align: center;
+  }
+  .f-nav h1 {
+    font-size: 30px;
+    margin-left: 0px;
     font-weight: bold;
+    margin-top: 35px;
+  }
+  .f-nav .grid-container {
+    margin: 0px 0px 10px 0px;
   }
   .spons-op .side-img {
     margin-top: 50px;
