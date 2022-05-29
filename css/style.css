@@ -547,9 +547,10 @@ a:hover {
   margin: 20px 0px 10px 0px;
 }
 .f-nav h1{
-  margin-top: 25px;
+  /* margin-top: 25px; */
   margin-left: 20px;
   text-align: left;
+  font-size: 30px;
 }
 .f-nav p{
  margin-top: 25px;
@@ -1221,10 +1222,11 @@ a:hover {
   border: 1px solid #fff;
 } */
 .new-counter .counter-box {
-  width: 100%;
-  height: 150px;
+  width: 80%;
+  height: 120px;
   display: block;
   padding: 20px;
+  text-align: center;
   position: relative;
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
@@ -1240,7 +1242,7 @@ a:hover {
 }
 .new-counter .counter-box .odometer {
   display: inline-block;
-  font-size: 50px;
+  font-size: 30px;
 }
 .new-counter .counter-box .value {
   font-size: 20px;
@@ -1278,12 +1280,16 @@ a:hover {
 .up-event .container{
   margin-top: 50px;
 }
+.up-text{
+  padding: 10px 200px 20px;
+}
 .up-eventTwo .container{
   margin-bottom: 20px;
 }
 .up-eventTwo .container i{
   color: #96c346;
   transition: 0.2s;
+  font-size:100px;
 }
 .up-eventTwo .container i:hover{
   transition: 0.2s;
@@ -2979,9 +2985,6 @@ input::-moz-focus-outer {
     margin-top: 70px;
     margin-left: 0px;
   }
-  .slider {
-    height: 60vh;
-  }
   .slider img {
     margin-top: 100px;
   }
@@ -2989,7 +2992,25 @@ input::-moz-focus-outer {
   .slider .left {
     margin-left: 0px;
   }
-
+  .slider{
+    height: 100vh !important;
+  }
+  .new-counter .counter-box {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+    height: 150px;
+  }
+  .new-counter .counter-box .odometer {
+    font-size: 20px;
+  }
+  .new-counter .counter-box h6 {
+    font-size: 10px;
+  }
+  .up-text{
+    padding: 10px 50px 20px;
+  }
   .counter-box .odometer {
     font-size: 55px;
   }
@@ -3032,63 +3053,51 @@ input::-moz-focus-outer {
   .side-widget .hide-mobile {
     display: none;
   }
-  .MB-SM-50 {
-    margin-bottom: 50px;
-  }
-  .col-lg-3:nth-child(odd) .s-box {
-    margin-top: 0;
-  }
-
-  .s-box {
-    margin: 15px 0;
+  .slider{
+    height: 100vh !important;
   }
   .logo-item {
     margin: 15px 0;
   }
   .new-counter .counter-box {
-    padding: 10px;
-    position: relative;
-  }
-  .new-counter .col-lg-2, .col-md-2{
-    padding-right: 0px !important;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+    height: 150px;
   }
   .new-counter .counter-box .odometer {
     font-size: 20px;
   }
-  .new-counter .counter-box .value {
-    font-size: 10px;
-  }
   .new-counter .counter-box h6 {
-    display: inline-block;
-    font-weight: 800;
-    letter-spacing: 2px;
-    position: relative;
     font-size: 10px;
   }
-  .counter-box .value {
-    margin-right: 20px;
+  .up-text{
+    padding: 10px 50px 20px;
   }
-  .col-lg-3:nth-child(even) .counter-box {
-    margin-top: 0;
-  }
-
-  .counter-box {
-    margin: 15px 0;
-  }
-
   .no-display{
     display: grid;
   }
   .n-display{
     display: none;
   }
-  .f-nav .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 0px 1fr;
+  .f-nav img {
+    margin-top: 25px;
+    width: 30%;
+    margin-left: 50px;
+    margin-right: 20px;
   }
-  .f-nav img{
-    margin-top: 15px;
-    width: 200px;
+  .f-nav .logo{
+    text-align: right;
+  }
+  .f-nav h1 {
+    font-size: 30px;
+    margin-left: 0px;
+    font-weight: bold;
+    /* margin-top: 20px; */
+  }
+  .f-nav .grid-container {
+    margin: 0px 0px 10px 0px;
   }
   .accordion {
     padding-right: 0;
@@ -3283,11 +3292,17 @@ input::-moz-focus-outer {
     background-position: left 600px bottom;
   }
   .new-counter .counter-box {
-    width: 70%;
+    width: 60%;
     margin: auto;
     text-align: center;
     margin-bottom: 10px;
-    height: 80px;
+    height: 100px;
+  }
+  .new-counter .counter-box .odometer {
+    font-size: 25px;
+  }
+  .new-counter .counter-box h6 {
+    font-size: 10px;
   }
   .Ndisplay{
     display: block !important;
@@ -3296,21 +3311,28 @@ input::-moz-focus-outer {
     margin-top: 5%;
   }
   .f-nav img {
-    margin-top: 25px;
-    width: 50%;
-    margin-left: 50px;
+    margin-top: 40px;
+    width: 80%;
+    margin-right: 50px;
+  }
+  .f-nav h1{
+    text-align: center;
   }
   .f-nav .logo{
     text-align: center;
   }
-  .f-nav h1 {
-    font-size: 30px;
-    margin-left: 0px;
-    font-weight: bold;
-    margin-top: 35px;
-  }
   .f-nav .grid-container {
+    grid-template-columns: 1fr 2fr;
     margin: 0px 0px 10px 0px;
+  }
+  .up-text{
+    padding: 10px 30px 20px;
+  }
+  .up-eventTwo .container i{
+    color: #96c346;
+    transition: 0.2s;
+    font-size: 70px;
+    margin-bottom: 40px;
   }
   .spons-op .side-img {
     margin-top: 50px;
@@ -3572,6 +3594,49 @@ input::-moz-focus-outer {
     .old-counter .col-lg-3:nth-child(even) .counter-box {
       margin-top: 5%;
     }
+    .slider{
+      height: 100vh;
+    }
+    .crossfade > figure{
+      background-position: left 600px bottom;
+    }
+    .new-counter .counter-box {
+      width: 60%;
+      margin: auto;
+      text-align: center;
+      margin-bottom: 10px;
+      height: 100px;
+    }
+    .new-counter .counter-box .odometer {
+      font-size: 25px;
+    }
+    .new-counter .counter-box h6 {
+      font-size: 10px;
+    }
+    .f-nav img {
+      margin-top: 40px;
+      width: 80%;
+      margin-right: 50px;
+    }
+    .f-nav h1{
+      text-align: center;
+    }
+    .f-nav .logo{
+      text-align: center;
+    }
+    .f-nav .grid-container {
+      grid-template-columns: 1fr 2fr;
+      margin: 0px 0px 10px 0px;
+    }
+    .up-text{
+      padding: 10px 30px 20px;
+    }
+    .up-eventTwo .container i{
+      color: #96c346;
+      transition: 0.2s;
+      font-size: 70px;
+      margin-bottom: 40px;
+    }
   }
 
   @media only screen and (max-width: 480px) {
@@ -3581,5 +3646,48 @@ input::-moz-focus-outer {
       .spons-op .text{
         padding-left: 20px;
         padding-right: 20px;
+      }
+      .slider{
+        height: 100vh;
+      }
+      .crossfade > figure{
+        background-position: left 600px bottom;
+      }
+      .new-counter .counter-box {
+        width: 60%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 10px;
+        height: 100px;
+      }
+      .new-counter .counter-box .odometer {
+        font-size: 25px;
+      }
+      .new-counter .counter-box h6 {
+        font-size: 10px;
+      }
+      .f-nav img {
+        margin-top: 30px;
+        width: 80%;
+        margin-right: 50px;
+      }
+      .f-nav h1{
+        text-align: center;
+      }
+      .f-nav .logo{
+        text-align: center;
+      }
+      .f-nav .grid-container {
+        grid-template-columns: 1fr 2fr;
+        margin: 0px 0px 10px 0px;
+      }
+      .up-text{
+        padding: 10px 30px 20px;
+      }
+      .up-eventTwo .container i{
+        color: #96c346;
+        transition: 0.2s;
+        font-size: 70px;
+        margin-bottom: 40px;
       }
   }
