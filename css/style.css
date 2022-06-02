@@ -173,6 +173,12 @@ a:hover {
 .MB-0 {
   margin-bottom: 0px !important;
 }
+h2{
+  font-size: 35px !important;
+}
+h3{
+  font-size: 20px !important;
+}
 .id-color{
   color: #009C05;
   font-weight: bold;
@@ -3112,6 +3118,7 @@ input::-moz-focus-outer {
     margin-left: 0px;
     font-weight: bold;
     margin-top: 20px;
+    text-align: left;
   }
   .f-nav .grid-container {
     margin: 0px 0px 10px 0px;
@@ -3337,11 +3344,8 @@ input::-moz-focus-outer {
     margin-right: 50px;
   }
   .f-nav h1{
-    text-align: center;
+    text-align: left;
     margin-top: 10px;
-  }
-  .f-nav h1{
-    text-align: center;
   }
   .f-nav .logo{
     text-align: center;
@@ -3611,7 +3615,7 @@ input::-moz-focus-outer {
     margin-right: 50px;
   }
   .f-nav h1{
-    text-align: center;
+    text-align: left;
     margin-top: 10px;
   }
     .display-none{
@@ -3648,9 +3652,6 @@ input::-moz-focus-outer {
       margin-top: 40px;
       width: 80%;
       margin-right: 50px;
-    }
-    .f-nav h1{
-      text-align: center;
     }
     .f-nav .logo{
       text-align: center;
@@ -3707,8 +3708,9 @@ input::-moz-focus-outer {
         margin-right: 50px;
       }
       .f-nav h1{
-        text-align: center;
+        text-align: left;
         margin-top: 10px;
+        margin-left: 30px;
       }
       .f-nav .logo{
         text-align: center;
@@ -3732,9 +3734,10 @@ input::-moz-focus-outer {
       margin-top: 10px;
       width: 80%;
       margin-right: 10px;
+      margin-left: 20px;
     }
     .f-nav h1{
-      text-align: center;
+      text-align: left;
       margin-top: 10px;
       font-size: 20px;
       margin-left: 10px;
