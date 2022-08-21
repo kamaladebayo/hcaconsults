@@ -101,6 +101,9 @@ body.de_light {
 .bigh1 {
   font-size: 50px;
 }
+.green-id{
+  color: #00a43f !important;
+}
 
 /* ================================================== */
 
@@ -309,9 +312,11 @@ header.smaller.header-light div#logo .logo {
   padding: 25px 0px 25px 20px;
   line-height: 35px;
   text-decoration: none;
-  color: #fff;
+  color: #00a43f;
   text-align: center;
   outline: none;
+  font-size: 15px;
+  font-weight: bolder;
 }
 .header-light #mainmenu > li > a {
   color: #222;
@@ -437,7 +442,7 @@ header.smaller.header-light div#logo .logo {
 #menu-btn {
   display: none;
   float: right;
-  margin-top: 5px;
+  /* margin-top: 5px; */
   width: 36px;
   height: 36px;
   padding: 6px;
@@ -508,11 +513,15 @@ section {
   width: 15%;
 }
 #section-sponsorship {
-  padding: 50px 0px 50px 0px !important;
+  padding: 50px !important;
+  background-color: #0a1a3a;
+}
+#section-sponsorship p{
+  color: white;
 }
 #section-sponsorship .padding {
-  padding-left: 300px;
-  padding-right: 300px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 #section-sponsorship a:nth-of-type(1) {
   margin-right: 20px;
@@ -679,13 +688,13 @@ footer hr {
   font-size: 12px;
   text-transform: uppercase;
   padding: 5px 20px !important;
-  background-color: #027fd8;
+  background-color: #0a1a3a;
   transition: 0.3s;
   border: none;
 }
 .subfooter .mc-button:hover {
   background-color: black;
-  color: #027fd8;
+  color: #0a1a3a;
   transition: 0.3s;
 }
 #subscribe-result p {
@@ -807,7 +816,7 @@ header.header-light .logo-2 {
   margin-bottom: 20px;
 }
 #section-attendees i {
-  color: #027fd8;
+  color: #0a1a3a;
   margin-right: 20px;
 }
 #section-attendees .pdf-section {
@@ -822,7 +831,7 @@ header.header-light .logo-2 {
 }
 #section-attendees .pdf-section b {
   transition: 0.3s;
-  border-bottom: 3px solid #027fd8;
+  border-bottom: 3px solid #0a1a3a;
 }
 #section-attendees .pdf-section b:hover {
   border-bottom: 3px solid #4cabf0;
@@ -842,7 +851,7 @@ header.header-light .logo-2 {
   display:none
 }
 #section-highlights button{
-  background-color: #027fd8 !important;
+  background-color: #0a1a3a !important;
 }
 #section-pdf {
   padding-top: 0px !important;
@@ -860,7 +869,7 @@ header.header-light .logo-2 {
   margin-left: 0px !important;
 }
 #section-pdf i {
-  color: #027fd8;
+  color: #0a1a3a;
   margin-right: 20px;
 }
 #section-pdf .pdf {
@@ -881,7 +890,7 @@ header.header-light .logo-2 {
 }
 #section-pdf .pdf-section b {
   transition: 0.3s;
-  border-bottom: 3px solid #027fd8;
+  border-bottom: 3px solid #0a1a3a;
 }
 #section-pdf .pdf-section b:hover {
   border-bottom: 3px solid #4cabf0;
@@ -896,7 +905,7 @@ header.header-light .logo-2 {
   color: #f5f5f5;
 }
 #section-deliverables hr {
-  border: 2px solid #027fd8;
+  border: 2px solid #0a1a3a;
   width: 20%;
   margin: auto;
 }
@@ -1004,6 +1013,22 @@ a.btn-border {
   font-weight: bold;
   font-size: 13px;
   text-transform: uppercase;
+}
+a.btn-border-green {
+  border: solid 2px #00a43f;
+  background: none;
+  border-radius: 30px;
+  padding: 9px 30px 9px 30px;
+  color: #00a43f;
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+a.btn-border-green:hover {
+  background-color: #00a43f;
+  border: solid 2px #00a43f;
+  color: #0a1a3a;
 }
 a.btn-border-black {
   border: solid 2px rgba(0, 0, 0, 1);
@@ -1200,9 +1225,12 @@ span.teaser {
 
 /* ================================================== */
 .pricing ul {
-  height: 200px;
+  height: 300px;
   overflow: hidden;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
+}
+.pricing .btn{
+  background-color: #00a43f;
 }
 .pricing-s1 {
   overflow: hidden;
@@ -1216,7 +1244,7 @@ span.teaser {
   margin: auto;
 }
 .pricing-s1 .top {
-  background: #222222;
+  background: rgba(175, 175, 175, 0.1);
   color: #eee;
   padding: 40px;
   color: #ecf0f1;
@@ -1247,7 +1275,7 @@ span.teaser {
 .pricing-s1 .bottom {
   border-top: 0px;
   padding-bottom: 5px;
-  background: #222222;
+  background: rgba(175, 175, 175, 0.1);
   text-align: center;
 }
 .pricing-s1 .bottom ul {
@@ -1267,10 +1295,10 @@ span.teaser {
   margin-right: 20px;
 }
 .pricing-s1 .bottom ul li:nth-child(odd) {
-  background: #282828;
+  background: rgba(175, 175, 175, 0.3);
 }
 .pricing-s1 .bottom ul li:nth-child(even) {
-  background: #2d2d2d;
+  background: rgba(175, 175, 175, 0.2);
 }
 .pricing-s1 .bottom > a {
   margin: 40px;
@@ -1337,7 +1365,7 @@ span.teaser {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #027fd8;
+  background: #0a1a3a;
 }
 
 /* Handle on hover */
@@ -1367,7 +1395,7 @@ span.teaser {
 .social-icons i:hover {
   background: white;
   border-color: #eceff3;
-  color: #027fd8;
+  color: #0a1a3a;
 }
 .social-icons.big i {
   font-size: 26px;
@@ -2409,6 +2437,16 @@ section.no-padding {
   background: rgba(20, 20, 20, 0.6);
   top: 0;
 }
+#section-intro-2 .overlay-bg {
+  width: 100%;
+  height: 700px;
+  z-index: 100;
+  background: rgba(175, 175, 175, 0.1);
+  top: 0;
+}
+#section-tickets .overlay-bg{
+  background: #0a1a3a;
+}
 .overlay-bg.t50 {
   background: rgba(20, 20, 20, 0.5);
 }
@@ -2613,6 +2651,7 @@ img {
     padding-left: 100px;
     padding-right: 100px;
   }
+  
 }
 
 /* -------------------------------------------------- 
@@ -2620,6 +2659,7 @@ img {
 	/* ================================================== */
 
 @media (min-width: 768px) and (max-width: 979px) {
+  
 }
 @media only screen and (max-width: 992px) {
   .text-center-sm {
@@ -2628,7 +2668,12 @@ img {
   #section-intro-2 {
     background-position: -50px 0px !important;
   }
-
+  #section-intro-2 {
+    background-position: -350px 0px !important;
+  }
+  #section-intro-2 .overlay-bg{
+    background: rgba(206, 206, 206, 0.3);
+  }
   #section-pdf .pdf {
     margin-top: 30px !important;
   }
@@ -3171,6 +3216,15 @@ img {
   #section-sponsors .grid-item{
     width: 20%;
   }
+  #section-intro-2 {
+    background-position: -700px 0px !important;
+  }
+  #section-intro-2 .overlay-bg{
+    background: rgba(148, 148, 148, 0.2);
+  }
+  #section-intro-2 .bigh1{
+    font-size: 45px;
+  }
 }
 
 /* -------------------------------------------------- 
@@ -3200,6 +3254,15 @@ img {
   #section-sponsors .grid-item{
     width: 20%;
   }
+  #section-intro-2 {
+    background-position: -700px 0px !important;
+  }
+  #section-intro-2 .overlay-bg{
+    background: rgba(148, 148, 148, 0.2);
+  }
+  #section-intro-2 .bigh1{
+    font-size: 45px;
+  }
 }
 
 /* -------------------------------------------------- 
@@ -3217,7 +3280,13 @@ img {
     padding: 0;
   }
   #section-intro-2 {
-    background-position: -550px 0px !important;
+    background-position: -780px 0px !important;
+  }
+  #section-intro-2 .overlay-bg{
+    background: rgba(206, 206, 206, 0.3);
+  }
+  #section-intro-2 .bigh1{
+    font-size: 45px;
   }
   #section-testimonial {
     background-position: -550px 0px !important;

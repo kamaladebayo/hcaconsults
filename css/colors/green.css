@@ -1,4 +1,4 @@
-/* default color: #96c346  */
+/* default color: #00a43f  */
 .bg-color,
 section.bg-color,
 section.call-to-action,
@@ -61,7 +61,7 @@ span.overlay,
 a.btn-fullwidth,
 .de_testi.opt-3 blockquote:before
 {
-	background-color:#96c346 ;
+	background-color:#00a43f ;
 }
 
 .feature-box i,
@@ -70,6 +70,7 @@ a.btn-fullwidth,
 .date-box .day,
 .slider_text h1,
 .id-color,
+.green-id,
 h1.id-color,h2.id-color,h3.id-color,h4.id-color,
 .pricing-box li h1,
 .title span,
@@ -122,7 +123,7 @@ h2.hs1 span,
 .countdown-s3 .countdown-period,
 .countdown-s4 .countdown-period
 {
-	color:#96c346;
+	color:#00a43f;
 }
 
 .feature-box i,
@@ -146,7 +147,7 @@ h2.hs1 span,
 .de_tab.tab_style_4 .de_nav
 {
 
-	border-color:#96c346 ;
+	border-color:#00a43f ;
 }
 
 .box-fx .inner,
@@ -163,37 +164,37 @@ h2.hs1 span,
 .text-light .separator span:after ,
 .form-underline input[type=text]:focus, .form-underline textarea:focus, .form-underline input[type=email]:focus, .form-underline select:focus
 {
-	border-bottom-color:#96c346 ;
+	border-bottom-color:#00a43f ;
 }
 
 .arrow-down,
 .preloader1{
-	border-top-color:#96c346 ;
+	border-top-color:#00a43f ;
 }
 
 .callbacks_nav {
-	background-color:#96c346 ;
+	background-color:#00a43f ;
 }
 
 
 .de_tab .de_nav li span {
-border-top: 3px solid #96c346 ;
+border-top: 3px solid #00a43f ;
 }
 
 .feature-box-big-icon i:after {
-border-color: #96c346  transparent; /*same colour as the lower of the bubble's gradient*/
+border-color: #00a43f  transparent; /*same colour as the lower of the bubble's gradient*/
 }
 
 .de_review li.active img{
-	border:solid 4px #96c346 ;
+	border:solid 4px #00a43f ;
 }
 
 .de_tab.tab_style_4 .de_nav li{
-border-right-color:#96c346 ;
+border-right-color:#00a43f ;
 }
 
 blockquote{
-border-left-color:#96c346;
+border-left-color:#00a43f;
 }
 
 
