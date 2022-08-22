@@ -54,6 +54,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,600,600i,700,700i,800,800i,900,900i");
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 /* ================================================== */
 
@@ -78,7 +79,7 @@ html {
   background: #fff;
 }
 body {
-  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 17px;
   font-weight: 300;
   background: #555;
@@ -104,6 +105,7 @@ body.de_light {
 .green-id{
   color: #00a43f !important;
 }
+
 
 /* ================================================== */
 
@@ -626,24 +628,32 @@ section {
 
 footer {
   background: white;
-  color: #ccc;
+  color: #444;
   padding: 50px 0 0px 0;
 }
 footer h3,
 .de_light footer h3 {
-  color: #fff;
+  color: #00a43f;
   font-size: 20px;
   text-transform: none;
   font-weight: normal;
 }
-footer a {
-  color: #ccc;
+footer a, footer p {
+  color: #444;
+}
+footer li{
+  list-style-type: none !important;
+  /* border-bottom: 1px solid #fff; */
+  text-align: center;
+}
+footer ul{
+  text-align: center !important;
 }
 footer a:visited {
-  color: #ccc;
+  color: #0a1a3a;
 }
 footer a:hover {
-  color: #eceff3;
+  color: #0a1a3a;
 }
 footer hr {
   /* border-top: solid 1px #96c346; */
@@ -660,7 +670,8 @@ footer hr {
   color: #222222 !important;
 }
 #section-quick-contact ul {
-  list-style-type: none;
+  list-style-type: none !important;
+  text-align: center !important;
 }
 
 .subfooter {
@@ -670,7 +681,7 @@ footer hr {
   padding: 30px 0 20px 0;
 }
 .subfooter h1 {
-  color: white !important;
+  color: #00a43f !important;
   margin-bottom: 20px;
 }
 .subfooter input {
@@ -679,8 +690,11 @@ footer hr {
   outline: none;
   margin-bottom: 20px;
 }
+.subfooter input::placeholder{
+  color: rgb(175, 175, 175, 0.6);
+}
 .subfooter #mce-EMAIL {
-  color: #000;
+  color: #444;
 }
 .subfooter .mc-button {
   color: white;
@@ -688,14 +702,15 @@ footer hr {
   font-size: 12px;
   text-transform: uppercase;
   padding: 5px 20px !important;
-  background-color: #0a1a3a;
+  background-color: #00a43f;
   transition: 0.3s;
-  border: none;
+  border: 3px solid #00a43f;
 }
 .subfooter .mc-button:hover {
-  background-color: black;
-  color: #0a1a3a;
+  background-color: #fff;
+  color: #00a43f;
   transition: 0.3s;
+  border: 3px solid #00a43f;
 }
 #subscribe-result p {
   font-size: 17px;
@@ -792,7 +807,7 @@ header.header-light .logo-2 {
   padding-bottom: 0px !important;
 }
 #section-about .row {
-  padding: 50px 150px !important;
+  padding: 50px 200px !important;
 }
 #section-about .side-text {
   margin-top: 50px;
@@ -902,18 +917,28 @@ header.header-light .logo-2 {
 #section-deliverables,
 #section-deliverables h2,
 #section-deliverables h3 {
-  color: #f5f5f5;
+  color: #0a1a3a;
 }
 #section-deliverables hr {
   border: 2px solid #0a1a3a;
   width: 20%;
   margin: auto;
 }
+#section-deliverables{
+  padding-top: 0px;
+}
 #section-deliverables p {
   margin-top: 20px;
 }
 #section-deliverables img {
-  width: 400px;
+  width: 70px !important;
+  margin-bottom: 20px;
+}
+#section-deliverables .w-50{
+  width: 50px !important;
+}
+#section-deliverables .w-10{
+  width: 10% !important;
 }
 #section-deliverables .mt-50 {
   margin-top: 50px;
@@ -973,14 +998,20 @@ a.btn:before {
 }
 a.btn-custom:hover,
 .btn-custom:hover {
-  color: #fff;
+  color: #0a1a3a;
   opacity: 0.8;
+  background-color: rgba(175, 175, 175, 0.1);
+  border: 2px solid #0a1a3a;
   -webkit-box-shadow: 8px 8px 40px 0px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 8px 8px 40px 0px rgba(0, 0, 0, 0.3);
   box-shadow: 8px 8px 40px 0px rgba(0, 0, 0, 0.3);
 }
+#section-tickets .btn-custom:hover{
+  background-color: white;
+  border: 2px solid #0a1a3a !important; 
+}
 .btn-custom {
-  padding: 8px 10px 8px 10px;
+  padding: 10px 50px !important;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -992,7 +1023,7 @@ a.btn-custom,
 a.btn-slider,
 .btn-slider {
   font-family: "Poppins";
-  font-size: 12px;
+  font-size: 15px;
   min-width: 120px;
 }
 a.btn-custom,
@@ -1018,17 +1049,17 @@ a.btn-border-green {
   border: solid 2px #00a43f;
   background: none;
   border-radius: 30px;
-  padding: 9px 30px 9px 30px;
+  padding: 10px 35px;
   color: #00a43f;
   font-family: "Poppins";
   font-weight: bold;
-  font-size: 13px;
+  font-size: 15px;
   text-transform: uppercase;
 }
 a.btn-border-green:hover {
   background-color: #00a43f;
   border: solid 2px #00a43f;
-  color: #0a1a3a;
+  color: white;
 }
 a.btn-border-black {
   border: solid 2px rgba(0, 0, 0, 1);
@@ -2494,7 +2525,7 @@ section.bg-grey {
   height: 32px;
   text-align: center;
   line-height: 30px;
-  background: #f5f5f5;
+  background: #00a43f !important;
   cursor: pointer;
   border: 0;
   border-radius: 2px;
@@ -2504,7 +2535,7 @@ section.bg-grey {
   opacity: 0;
 }
 #back-to-top:hover {
-  background: #111;
+  background: #00a43f;
 }
 #back-to-top.show {
   bottom: 40px;
@@ -3244,6 +3275,12 @@ img {
     max-width: 200px;
     height: auto;
   }
+  .pricing ul {
+    height: 400px;
+  }
+  .mb-small-30{
+    margin-bottom: 30px;
+  }
   #section-sponsors .next {
     margin-left: 0px;
     margin-top: 70px;
@@ -3266,7 +3303,7 @@ img {
 }
 
 /* -------------------------------------------------- 
-	design for 320px
+	design for 320px (MOBILE)
 	/* -------------------------------------------------- */
 
 @media only screen and (max-width: 480px) {
@@ -3283,10 +3320,16 @@ img {
     background-position: -780px 0px !important;
   }
   #section-intro-2 .overlay-bg{
-    background: rgba(206, 206, 206, 0.3);
+    background: rgba(175, 175, 175, 0.1);
   }
   #section-intro-2 .bigh1{
     font-size: 45px;
+  }
+  .pricing ul {
+    height: 400px;
+  }
+  .mb-small-30{
+    margin-bottom: 30px;
   }
   #section-testimonial {
     background-position: -550px 0px !important;
