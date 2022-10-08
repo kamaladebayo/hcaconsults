@@ -1287,6 +1287,10 @@ h3{
   padding: 20px;
   color: #0b0b0b;
 }
+.upcoming h4{
+  font-size: 25px;
+  margin-top: 30px;
+}
 .up-event h3{
   font-weight: bold;
   font-size: 30px;
@@ -1319,6 +1323,7 @@ h3{
   padding: 15px;
   font-size: 12px;
   transition: 0.2s;
+  margin: 20px;
 }
 #reports a:hover{
   color: #009C05;
