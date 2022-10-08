@@ -1316,6 +1316,9 @@ h3{
   color: #009C05;
   text-decoration: underline;
 }
+.hide{
+  display: none;
+}
 #reports a{
   color: #eee;
   width: 100%;
@@ -3316,6 +3319,9 @@ input::-moz-focus-outer {
   .display-none{
     display: none;
   }
+  .hide{
+    display: block;
+  }
   .crossfade > figure{
     height: 40vh;
     /* background-position: left 600px bottom; */
@@ -3614,6 +3620,9 @@ input::-moz-focus-outer {
 }
 
 @media only screen and (min-width: 300px) and (max-width: 350px) {
+  .hide{
+    display: block;
+  }
   .f-nav img {
     margin-top: 10px;
     width: 80%;
@@ -3676,6 +3685,9 @@ input::-moz-focus-outer {
   }
 
   @media only screen and (max-width: 480px) {
+    .hide{
+      display: block;
+    }
     .logo-item img {
         margin-bottom: 30px;
       }
@@ -3735,6 +3747,9 @@ input::-moz-focus-outer {
   }
 
   @media(max-width: 320px){ 
+    .hide{
+      display: block;
+    }
     .f-nav img {
       margin-top: 10px;
       width: 80%;
