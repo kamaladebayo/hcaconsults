@@ -1232,7 +1232,7 @@ h3{
   border: 1px solid #fff;
 } */
 .new-counter .counter-box {
-  width: 80%;
+  width: 100%;
   height: 80px;
   display: block;
   padding: 5px;
