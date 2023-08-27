@@ -37,6 +37,14 @@ section,
 #section-intro-2 {
   background: url(../images/hero2.webp);
 }
+@media(max-width: 990px){
+  #section-intro-1 {
+    background: url(../images/hero2.jpg) fixed;
+  }
+  #section-intro-2 {
+    background: url(../images/hero2.jpg);
+  }
+}
 #section-intro-3 {
   background: url(../images/background/5.jpg) fixed;
 }
@@ -74,7 +82,7 @@ section,
 }
 
 /* media query */
-@media only screen and (min-device-width: 768) and (max-device-width: 1024) and (orientation: portrait) {
+/* @media only screen and (min-device-width: 768) and (max-device-width: 1024) and (orientation: portrait) {
   section {
     -webkit-background-size: auto 100% !important;
     -moz-background-size: auto 100% !important;
@@ -83,7 +91,7 @@ section,
     background-repeat: no-repeat !important;
     background-attachment: scroll !important;
   }
-}
+} */
 @media only screen and (max-width: 992px) {
   #subheader {
     -webkit-background-size: cover !important;
@@ -94,7 +102,7 @@ section,
     background-attachment: scroll !important;
   }
 }
-@media only screen and (max-width: 992px) {
+/* @media only screen and (max-width: 992px) {
   section {
     -webkit-background-size: auto 100% !important;
     -moz-background-size: auto 100% !important;
@@ -103,4 +111,4 @@ section,
     background-repeat: no-repeat !important;
     background-attachment: scroll !important;
   }
-}
+} */
