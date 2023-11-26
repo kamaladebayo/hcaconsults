@@ -2135,7 +2135,7 @@ a.img-icon-zoom {
   font-weight: normal;
   font-size: 14px;
   width: 160px;
-  padding-top: 15px;
+  /* padding-top: 15px; */
 }
 .schedule-item .sc-name h4 {
   font-size: 14px;
@@ -2157,7 +2157,7 @@ a.img-icon-zoom {
   font-weight: 500;
 }
 .schedule-smaller .sc-info h3 {
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 .de_tab.tab_style_4 .de_nav {
   -webkit-touch-callout: none;
@@ -3419,4 +3419,53 @@ img {
 
 #ifrm {
   display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  animation: slide 10s infinite linear;
+}
+
+@keyframes slide {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+.slider img {
+  width: 8em;
+  height: 8em;
+  object-fit: contain;
+  margin: 0 10px;
 }
