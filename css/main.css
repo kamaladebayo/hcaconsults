@@ -473,6 +473,53 @@ section.about p .text-highlight{
 }
 /* 
 ================================ */
+.report{
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* border: 1px dashed red; */
+    gap: 2em;
+}
+.nhifReport h2{
+    margin-bottom: 1em;
+}
+.report__content{
+    width: 60%;
+}
+.report__content ul{
+    margin: 0;
+    padding: 0;
+}
+.report__download{
+    text-decoration: none;
+    color: #141414;
+    background: #FFF;
+    padding: .5em 1.5em;
+    border-radius: 1em;
+    display: block;
+    font-weight: 600;
+    margin-top: 2em;
+    width: fit-content;
+}
+.report > img{
+    width: 40%;
+    display: block;
+    object-fit: contain;
+}
+@media(max-width: 900px){
+    .report{
+        flex-direction: column;
+    }
+    .report__content{
+        width: 100%;
+        order: 2;
+    }
+    .report > img{
+        width: 100%;
+        order: 1;
+    }
+
+}
 
 
 /* Exhibition
