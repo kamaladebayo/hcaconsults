@@ -442,12 +442,12 @@ section.about p .text-highlight{
 .sponsorship__rowImage{
     flex: 1;
     display: flex;
-    gap: 1em;
+    gap: .5em;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .sponsorship__rowImage img{
-    max-width: 25em;
+    max-width: 8em;
     width: 100%;
     object-fit: contain;
     
