@@ -447,7 +447,7 @@ section.about p .text-highlight{
     justify-content: space-evenly;
 }
 .sponsorship__rowImage img{
-    max-width: 8em;
+    /* max-width: 8em; */
     width: 100%;
     object-fit: contain;
     
