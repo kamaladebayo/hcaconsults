@@ -651,6 +651,7 @@ footer.footer > .footer__details{
 .footer__details > .column > img{
     width: 17em;
     /* height: 8em; */
+    visibility: hidden;
     object-fit: contain;
 }
 .footer__details > .column > h3{
